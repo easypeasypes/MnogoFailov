@@ -11,7 +11,7 @@ void Calculator(float number1, float number2, wchar_t znak) {
 	std::wcin >> number1;
 	std::wcout << L"\n\n\n\t\t\tВведите 2 число\n";
 	std::wcin >> number2;
-	std::wcout << L"\n\n\n\t\t\tВведите знак(+ - * /)\n";
+	std::wcout << L"\n\n\n\t\t\tВведите знак( + - * / )\n";
 	std::wcin >> znak;
 	if (znak == L'*') {
 		system("cls");
