@@ -22,8 +22,10 @@ void Calculator(float number1, float number2, wchar_t znak) {
 			system("cls");
 			std::wcout << L"\n\n\n\t\t\tДелить на 0 нельзя!!!\n\n\n";
 		}
-		system("cls");
-		std::wcout << number1 << " / " << number2 << " = " << number1 / number2 << L"\n";
+		else {
+			system("cls");
+			std::wcout << number1 << " / " << number2 << " = " << number1 / number2 << L"\n";
+		}
 	}
 	else if (znak == L'+') {
 		system("cls");
