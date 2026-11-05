@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="MnogoFailov/MnogoFailov.vcxproj" Id="b19fb5a6-cf4b-465c-a0f0-204daf2c640f" />
+</Solution>
